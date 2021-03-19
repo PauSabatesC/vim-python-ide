@@ -34,6 +34,10 @@ python3 python3-devel tcl-devel
 git clone https://github.com/rapphil/vim-python-ide.git && \
 cd vim-python-ide && ./install.sh
 ```
+In the vimrc also put this:
+set completeopt-=preview
+
+
 
 ## Features
 
